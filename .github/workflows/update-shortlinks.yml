@@ -26,7 +26,7 @@ jobs:
     - name: Execute update command
       env:
         REBRANDLY_API_KEY: ${{ secrets.REBRANDLY_API_KEY }}
-      run: |>
+      run: >
         pipenv run spreadsheet2shortlinks --yes --verbose
           --spreadsheet "https://docs.google.com/spreadsheets/d/1yVKa8WXyRw-TkyBq2ip4CDIPtPazDLKr_ius1uO-OyQ/edit#gid=776462093"
           --domain-name "link.civictechsaintjohn.com"
