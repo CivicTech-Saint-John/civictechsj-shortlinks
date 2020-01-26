@@ -21,15 +21,13 @@ Example: `my-shortlink`
 
 ## Technology Used
 
-- [**GitHub.**][github] Code hosting for storing the configuration file.
-- [**GitHub Actions.**][actions]
-- [**Rebrandly.**][rebrandly]
-- [**Google Sheets.**][sheets]
+- [**Rebrandly.**][rebrandly] A hosted shortlink service usable via API.
+- [**Google Sheets.**][sheets] For easily storing and editting shortlinks without logging into Rebrandly.
+- [**GitHub Actions.**][actions] For running automated scripts in the cloud. This syncs the shortlinks from the GSheet.
 
-   [github]: https://example.com
-   [actions]: https://example.com
-   [rebandly]: https://example.com
-   [sheets]: https://example.com
+   [actions]: https://help.github.com/en/actions
+   [rebrandly]: https://www.rebrandly.com/
+   [sheets]: https://zapier.com/learn/google-sheets/google-sheets-tutorial/
 
 ## :muscle: Contributing
 
