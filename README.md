@@ -1,5 +1,7 @@
 # CivicTechSJ: Shortlinks
 
+**Important:** This repo is an unofficial demonstration, and not actively used yet.
+
 For creating/updating our `link.civictechsaintjohn.com` shortlinks.
 
 Shortlinks are viewed and edited via a Google Spreadsheet at https://link.civictechsaintjohn.com/shortlinks
