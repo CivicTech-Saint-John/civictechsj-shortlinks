@@ -1,0 +1,33 @@
+name: Update Shortlinks
+
+on:
+  schedule:
+  # Trigger automation to run every 30 minutes.
+  - cron: '*/30 * * * *'
+
+jobs:
+  update-shortlinks:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Set up Python 3.x
+      users: actions/setup-python@v1
+      with:
+        python-version: '3.x'
+
+    - name: Install spreadsheet2shortlinks CLI
+      run: |
+        pip install --upgrade pip
+        pip install pipenv
+        pipenv install
+
+    - name: Execute update command
+      env:
+        REBRANDLY_API_KEY: ${{ secrets.REBRANDLY_API_KEY }}
+      run: |>
+        pipenv run spreadsheet2shortlinks --yes --verbose
+          --spreadsheet "https://docs.google.com/spreadsheets/d/1yVKa8WXyRw-TkyBq2ip4CDIPtPazDLKr_ius1uO-OyQ/edit#gid=776462093"
+          --domain-name "link.civictechsaintjohn.com"
+          --rebrandly-api-key $REBRANDLY_API_KEY
