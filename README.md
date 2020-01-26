@@ -44,3 +44,16 @@ the spreadsheet with `my-shortlink` as the `keyword` and your complicated
 URL as the `destination_url`.
 
 Shortlinks are **updated every 30 minutes** via Github Actions.
+
+## ProTip
+
+Shortlinks work on their own in the address bar, but for even easier access on
+your own computer, you can **add a "custom search engine" keyword to your
+browser.**
+
+This allows you to type something like `ctsj<tab>shortlinks` into the search bar,
+and get https://link.civictechsaintjohn.com/shortlinks
+
+Here's a screencast showing how it works (for another domain) in Chrome ([full instructions](https://www.techrepublic.com/article/pro-tip-add-custom-search-engines-in-chrome-for-more-efficient-searching/)):
+
+![screenshot of adding/using shortlinks as keywords with custom search engine set in browser](https://i.imgur.com/2D8B7kS.gif)
