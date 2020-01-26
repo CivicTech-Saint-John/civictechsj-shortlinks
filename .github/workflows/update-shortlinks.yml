@@ -1,7 +1,7 @@
 name: Update Shortlinks
 
 on:
-  push: true
+  push: {}
   schedule:
   # Trigger automation to run every 30 minutes.
   - cron: '*/30 * * * *'
