@@ -31,7 +31,7 @@ Example: `my-shortlink`
 
 ## :muscle: Contributing
 
-tl;dr - simply edit [`shortlinks.csv`](/shortlinks.csv)!
+tl;dr - simply edit [this spreadsheet](https://link.civictechsaintjohn.com/shortlinks)!
 
 - **Creating** a new shortlink? Add a new line.
 - **Changing** an existing shortlink? Change the `destination_url`.
