@@ -11,6 +11,21 @@ The updates aren't reflected immediately, but happen every 30 minutes.
 
 This repo contains documentation and the automated scripts for syncing the shortlinks from the spreadsheet.
 
+## Why Use Shortlinks
+
+Surprisingly, shortlinks main value isn't their shortness (though that's sometimes helpful).
+
+Shortlinks are a way for a **group of people** working with online tools and resources to **more intuitively navigate their digital environment**. They can slowly grow a set of "keywords" amongst themselves (e.g., the "gdrive" in `link.example.com/gdrive`) that map directly to the places they use most online.
+
+Some perks of this approach:
+- Keywords are **memorable**, because the group decides them. Find the business plan at `link.example.com/bizplan` instead of some long Google Doc URL.
+- Resource locations are **changeable**, without taxing people to keep track of these changes. You revised and moved the business plan? No prob! Just update the shortlink, and everyone knows where it is without learning.
+- Keywords make for more **humane onboarding**. It can be demoralizing to keep up with a group that's already learned where everything is. Shortlinks help new people keep up just as easily, with less hand-holding (that we sometimes forget to offer).
+- Keywords are **communicable** in spoken conversations. You can speak of a resource, and know that everyone automatically knows how to get to it, without special guidance. In a sense, the spoken keyword actually _resolves_ to the resource itself.
+- Similarly, keywords help shared language become **convergent**. Amongst a few people, they might separately call the same resource "the most recent proposal doc" or "the google doc" or "the ACME proposal". This can be confusing. Shortlinks help folks converge on a clear way of speaking, because one chosen term becomes materially more useful.
+
+In short, you should use shortlinks **because working on the internet is _so much more confusing_ than physical space**.
+
 ## Terminology
 
 - **shortlink.** The shortened url. Example: https://link.example.com/my-shortlink
